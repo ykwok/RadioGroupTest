@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<TextView android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:text="@string/hello" />
+
+	<RadioGroup android:id="@+id/genderGroup"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="vertical">
+		<RadioButton android:text="@string/male" android:id="@+id/RadioMale"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</RadioButton>
+		<RadioButton android:text="@string/female" android:id="@+id/RadioFemale"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</RadioButton>
+	</RadioGroup>
+	
+	<RadioGroup android:id="@+id/LevelGroup"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"
+		android:orientation="horizontal">
+		<RadioButton android:text="@string/p1" android:id="@+id/RadioP1"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</RadioButton>
+		<RadioButton android:text="@string/p2" android:id="@+id/RadioP2"
+			android:layout_width="wrap_content" android:layout_height="wrap_content">
+		</RadioButton>
+	</RadioGroup>
+	
+	<CheckBox android:text="@string/running" android:id="@+id/CheckRunning"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="@string/swimming" android:id="@+id/CheckSwimming"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	<CheckBox android:text="@string/soccer" android:id="@+id/CheckSoccer"
+		android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+</LinearLayout>

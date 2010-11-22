@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">你好！遥控组！</string>
+	<string name="app_name">RadioGroupTutorial</string>
+	<string name="gender">性别</string>
+	<string name="male">男</string>
+	<string name="female">女</string>
+	<string name="running">跑步</string>
+	<string name="swimming">游泳</string>
+	<string name="soccer">足球</string>
+	<string name="p1">郭元</string>
+	<string name="p2">金舒怡</string>
+</resources>
